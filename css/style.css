@@ -108,6 +108,14 @@ a {
     border: 3px dashed black;
 }
 
+.business-title {
+
+    /* debug */
+    min-height: 100px;
+    background-color: lightgrey;
+    border: 3px dashed black;
+}
+
 /* GRILL */
 .grill-row {
     display: flex;
@@ -119,6 +127,13 @@ a {
 }
 
 .grill-row.partner {
+    margin: 50px 0 20px 0;
+}
+
+.grill-row.business {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 2rem;
     margin: 50px 0 20px 0;
 }
 
