@@ -80,7 +80,7 @@ a {
 
 /* MAIN */
 
-/* HERO */
+/* hero section */
 .hero-section {
     background-color: #b4cfe7;
     padding: 50px 0;
@@ -94,7 +94,7 @@ a {
     border: 3px dashed black;
 }
 
-/* ARTICLE */
+/* subscription section */
 .article-section {
     background-color: lightseagreen;
     padding: 50px 0;
@@ -144,6 +144,3 @@ a {
     background-color: grey;
     border: 3px dashed black;
 }
-
-
-
