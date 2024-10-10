@@ -31,6 +31,11 @@ ul {
     list-style: none;
 }
 
+li {
+    display: inline-block;
+    margin: 10px 0;
+}
+
 a {
     text-decoration: none;
     color: #000000;
@@ -39,8 +44,13 @@ a {
     line-height: normal;
 }
 
+a .buy-now {
+    text-decoration: line-through;
+    color: violet
+}
+
 hr {
-    width: ;
+    width: 25%;
 }
 
 .mt-40 {
@@ -132,7 +142,7 @@ hr {
     width: 30%;
     min-height: 400px;
     /* background-color: grey; */
-    border: 3px dashed black;
+    border: 1px solid black;
 }
 
 .col-50 {
@@ -161,6 +171,30 @@ hr {
     min-height: 400px;
     background-color: grey;
     border: 3px dashed black;
+}
+
+/* CARDS */
+.card {
+
+}
+
+.card-head {
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid black;
+
+    /* debug */
+    /* background-color: red; */
+}
+
+.card-body {
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    /* debug */
+    /* background-color: red; */
 }
 
 /* BUTTONS */
@@ -229,16 +263,17 @@ hr {
 
 /* subscription section */
 .section-bg {
-    background-color: lightseagreen;
+    background-color: #ffffff;
     padding: 50px 0;
 }
 
 .sub-title {
+    font-size: 2rem;
 
     /* debug */
-    min-height: 200px;
-    background-color: lightgrey;
-    border: 3px dashed black;
+    /* min-height: 200px; */
+    /* background-color: lightgrey; */
+    /* border: 3px dashed black; */
 }
 
 .business-title {
