@@ -20,6 +20,12 @@ body {
     font-family: sans-serif;
 }
 
+#arrow-down {
+    font-size: 3rem;
+    position: absolute;
+    bottom: 0;
+}
+
 /* UTILITY */
 ul {
     list-style: none;
@@ -28,10 +34,21 @@ ul {
 a {
     text-decoration: none;
     color: #000000;
+
+    display: inline-block;
+    line-height: normal;
 }
 
 hr {
     width: ;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
 }
 
 /* LAYOUT */
@@ -109,11 +126,12 @@ hr {
 }
 
 .col-30 {
+    position: relative;
 
     /* DEBUG */
     width: 30%;
     min-height: 400px;
-    background-color: grey;
+    /* background-color: grey; */
     border: 3px dashed black;
 }
 
@@ -132,7 +150,7 @@ hr {
     /* DEBUG */
     width: 70%;
     min-height: 400px;
-    background-color: grey;
+    /* background-color: grey; */
     border: 3px dashed black;
 }
 
@@ -153,7 +171,7 @@ hr {
     /* background-color: red; */
 }
 
-.button.login {
+.button.start {
     color: #ffffff;
     background-color: #005ffd;
 }
@@ -197,15 +215,16 @@ hr {
 /* hero section */
 .hero-section {
     background-color: #b4cfe7;
-    padding: 50px 0;
+    padding: 60px 0 20px 0;
 }
 
 .hero-title {
+    font-size: 4.5rem;
 
     /* debug */
-    min-height: 200px;
-    background-color: lightgrey;
-    border: 3px dashed black;
+    /* min-height: 200px; */
+    /* background-color: lightgrey; */
+    /* border: 3px dashed black; */
 }
 
 /* subscription section */
