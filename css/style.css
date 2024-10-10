@@ -44,13 +44,17 @@ a {
     line-height: normal;
 }
 
-a .buy-now {
-    text-decoration: line-through;
-    color: violet
+.buy-now {
+    text-decoration: underline;
+    color: rgb(56, 0, 56)
 }
 
 hr {
     width: 25%;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
 }
 
 .mt-40 {
@@ -89,6 +93,11 @@ hr {
     display: flex;
     flex-direction: row;
 }
+
+/* .grill-column {
+    display: flex;
+    flex-direction: column;
+} */
 
 .grill-row.header-nav {
     justify-content: space-between;
@@ -165,19 +174,15 @@ hr {
 }
 
 .col-100 {
-
+    
     /* DEBUG */
     width: 100%;
-    min-height: 400px;
-    background-color: grey;
-    border: 3px dashed black;
+    /* min-height: 400px; */
+    /* background-color: grey; */
+    border: 1px solid black;
 }
 
 /* CARDS */
-.card {
-
-}
-
 .card-head {
     text-align: center;
     padding: 10px 0;
@@ -188,26 +193,48 @@ hr {
 }
 
 .card-body {
-    margin: 20px 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    margin: 30px 30px;
+    position: relative;
 
     /* debug */
     /* background-color: red; */
+}
+
+.card-body-row {
+    margin: 30px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: ;
+    gap: 10px;
+    padding: 5px;
+
+    /* debug */
+    background-color: red;
+}
+
+.list-item {
+    display: flex;
+    gap: 10px;
 }
 
 /* BUTTONS */
 .button {
-    padding: 10px 15px;
+    padding: 10px 20px;
 
     /* debug */
     /* background-color: red; */
 }
 
-.button.start {
+.button.blue {
     color: #ffffff;
     background-color: #005ffd;
+    text-align: center;
+}
+
+.button.contact {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 /* HEADER */
