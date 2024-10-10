@@ -44,9 +44,9 @@ a {
     line-height: normal;
 }
 
-.buy-now {
+.link {
     text-decoration: underline;
-    color: rgb(56, 0, 56)
+    color: #005ffd;
 }
 
 hr {
@@ -158,13 +158,13 @@ hr {
 }
 
 .col-50 {
+    width: 60%;
+    margin: 50px 0;
 
     /* DEBUG */
-    width: 60%;
     min-height: 200px;
-    background-color: lightgrey;
-    border: 3px dashed black;
-    margin: 50px 0;
+    /* background-color: lightgrey; */
+    /* border: 3px dashed black; */
 }
 
 .col-70 {
