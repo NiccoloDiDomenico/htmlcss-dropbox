@@ -102,11 +102,6 @@ hr {
     flex-direction: row;
 }
 
-/* .grill-column {
-    display: flex;
-    flex-direction: column;
-} */
-
 .grill-row.header-nav {
     justify-content: space-between;
 }
@@ -322,12 +317,15 @@ hr {
     /* border: 3px dashed black; */
 }
 
-.business-title {
+/* business section */
+.business-title {       
+    font-size: 2rem;
+    margin: 100px 0 40px 0;
 
     /* debug */
-    min-height: 100px;
-    background-color: lightgrey;
-    border: 3px dashed black;
+    /* min-height: 100px; */
+    /* background-color: lightgrey; */
+    /* border: 3px dashed black; */
 }
 
 
