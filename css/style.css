@@ -141,20 +141,20 @@ hr {
 
     /* DEBUG */
     width: 25%;
-    min-height: 200px;
-    background-color: grey;
-    border: 3px dashed black;
+    /* min-height: 200px; */
+    /* background-color: grey; */
+    /* border: 3px dashed black; */
 
 }
 
 .col-30 {
+    width: 30%;
     position: relative;
 
     /* DEBUG */
-    width: 30%;
-    min-height: 400px;
+    /* min-height: 400px; */
     /* background-color: grey; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .col-50 {
@@ -162,7 +162,7 @@ hr {
     margin: 50px 0;
 
     /* DEBUG */
-    min-height: 200px;
+    /* min-height: 200px; */
     /* background-color: lightgrey; */
     /* border: 3px dashed black; */
 }
@@ -171,9 +171,9 @@ hr {
 
     /* DEBUG */
     width: 70%;
-    min-height: 400px;
+    /* min-height: 400px; */
     /* background-color: grey; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .col-100 {
@@ -182,7 +182,7 @@ hr {
     width: 100%;
     /* min-height: 400px; */
     /* background-color: grey; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 /* CARDS */
